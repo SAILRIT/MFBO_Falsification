@@ -32,13 +32,13 @@ We developed three levels of fidelity for the original highway driving benchmark
 
 For this environment, first run:
 ```
-Pip install highway_env
+pip install highway_env
 highway_env.register_highway_envs()
 ```
 ## Running Multi-fidelity Bayesian Optimization
 For implementing multi-fidelity BO, for all three case studies, first install emukit:
 ```
-Pip install emukit
+pip install emukit
 ```
 You also need to install stable-baselines3[extra]:
 ```
