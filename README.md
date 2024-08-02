@@ -17,6 +17,12 @@ We falsify against the deep deterministic policy gradient (DDPG) algorithm train
 
 **Dependencies:** `numpy`, `stable_baselines3`, `gymnasium`, `emukit`, `gym[box2d]`, `GPy`
 
+You can use these commands:
+```
+conda create -y -n gymbox;
+conda activate gymbox;
+conda install -y conda-forge::gymnasium-box2d;
+```
 
 ### Highway
 
@@ -24,6 +30,11 @@ We developed three levels of fidelity for the original highway driving benchmark
 
 **Dependencies:** `numpy`, `stable_baselines3`, `gymnasium`, `emukit`, `gym[box2d]`, `GPy`, `highway_env`,
 
+For this environment, first run:
+```
+Pip install highway_env
+highway_env.register_highway_envs()
+```
 
 ## Citing Us:
 The final version of the paper is available at: [MFBO_for_Falsification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10178417).
