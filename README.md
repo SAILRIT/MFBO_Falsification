@@ -39,6 +39,7 @@ highway_env.register_highway_envs()
 ## Citing Us:
 The final version of the paper is available at: [MFBO_for_Falsification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10178417).
 
+```
 @inproceedings{shahrooei2023falsification,
   title={Falsification of learning-based controllers through multi-fidelity Bayesian optimization},
   author={Shahrooei, Zahra and Kochenderfer, Mykel J and Baheri, Ali},
@@ -47,4 +48,4 @@ The final version of the paper is available at: [MFBO_for_Falsification](https:/
   year={2023},
   organization={IEEE}
 }
-
+```
