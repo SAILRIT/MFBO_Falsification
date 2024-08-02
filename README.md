@@ -20,12 +20,20 @@ We falsify against the deep deterministic policy gradient (DDPG) algorithm train
 
 ### Highway
 
-We developed three levels of fidelity for the original highway driving benchmark available at: [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv). Each level operates at a different frequency and has a varying number of cars. We falsify deep Q-learning (DQN) (available at [DQN Documentation](https://github.com/DLR-RM/stable-baselines3/blob/master/docs/modules/dqn.rst)) for the ego vehicle's behavior, which is trained on the high-fidelity simulator.
+We developed three levels of fidelity for the original highway driving benchmark available at: [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv). Each simulator operates at a different frequency and has a varying number of cars. We falsify deep Q-learning (DQN) (available at [DQN Documentation](https://github.com/DLR-RM/stable-baselines3/blob/master/docs/modules/dqn.rst)) for the ego vehicle's behavior, which is trained on the high-fidelity simulator.
 
 **Dependencies:** `numpy`, `stable_baselines3`, `gymnasium`, `emukit`, `gym[box2d]`, `GPy`, `highway_env`,
 
 
-For this environment, first run:
-```bash
-pip install highway_env
-highway_env.register_highway_envs()
+## Citing Us:
+The final version of the paper is available at: [MFBO_for_Falsification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10178417).
+
+@inproceedings{shahrooei2023falsification,
+  title={Falsification of learning-based controllers through multi-fidelity Bayesian optimization},
+  author={Shahrooei, Zahra and Kochenderfer, Mykel J and Baheri, Ali},
+  booktitle={2023 European Control Conference (ECC)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+}
+
