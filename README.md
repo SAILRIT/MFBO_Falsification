@@ -35,6 +35,15 @@ For this environment, first run:
 Pip install highway_env
 highway_env.register_highway_envs()
 ```
+## Running Multi-fidelity Bayesian Optimization
+For implementing multi-fidelity BO, for all three case studies, first install emukit:
+```
+Pip install emukit
+```
+You also need to install stable-baselines3[extra]:
+```
+pip install stable-baselines3[extra]
+```
 
 ## Citing Us:
 The final version of the paper is available at: [MFBO_for_Falsification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10178417).
