@@ -24,9 +24,9 @@ conda activate gymbox;
 conda install -y conda-forge::gymnasium-box2d;
 ```
 
-### Highway
+### Highway, Merge, and Roundabout scenarios
 
-We developed three levels of fidelity for the original highway driving benchmark available at: [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv). Each simulator operates at a different frequency and has a varying number of cars. We falsify deep Q-learning (DQN) (available at [DQN Documentation](https://github.com/DLR-RM/stable-baselines3/blob/master/docs/modules/dqn.rst)) for the ego vehicle's behavior, which is trained on the high-fidelity simulator.
+We developed three levels of fidelity for the original highway, merge, and roundabout driving scenarios available at: [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv). FOr example, in case of highway, each simulator operates at a different frequency and has a varying number of cars. We falsify deep Q-learning (DQN) (available at [DQN Documentation](https://github.com/DLR-RM/stable-baselines3/blob/master/docs/modules/dqn.rst)) for the ego vehicle's behavior, which is trained on the high-fidelity simulator.
 
 **Dependencies:** `numpy`, `stable_baselines3`, `gymnasium`, `emukit`, `gym[box2d]`, `GPy`, `highway_env`,
 
