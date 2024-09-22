@@ -49,12 +49,10 @@ pip install stable-baselines3[extra]
 The final version of the paper is available at: [MFBO_for_Falsification](https://arxiv.org/pdf/2409.08097).
 
 ```
-@inproceedings{shahrooei2023falsification,
-  title={Falsification of learning-based controllers through multi-fidelity Bayesian optimization},
+@article{shahrooei2024optimizing,
+  title={Optimizing Falsification for Learning-Based Control Systems: A Multi-Fidelity Bayesian Approach},
   author={Shahrooei, Zahra and Kochenderfer, Mykel J and Baheri, Ali},
-  booktitle={2023 European Control Conference (ECC)},
-  pages={1--6},
-  year={2023},
-  organization={IEEE}
+  journal={arXiv preprint arXiv:2409.08097},
+  year={2024}
 }
 ```
