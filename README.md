@@ -46,7 +46,7 @@ pip install stable-baselines3[extra]
 ```
 
 ## Citing Us:
-The final version of the paper is available at: [MFBO_for_Falsification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10178417).
+The final version of the paper is available at: [MFBO_for_Falsification](https://arxiv.org/pdf/2409.08097).
 
 ```
 @inproceedings{shahrooei2023falsification,
